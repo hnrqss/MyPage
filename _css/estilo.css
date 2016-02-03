@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext);
+
+
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    
+}
+div#site{
+    width: 100%;
+   
+
+}
+nav#menu {
+    display: block;
+    position: relative;
+    float: right;
+    top: 55px;
+    left: 0px;
+
+}
+
+nav#menu ul {
+      
+    
+    list-style: none; /* tirar as marcações da lista */
+    text-transform: uppercase; /*deixar tudo maiusculo */
+    
+}
+nav#menu ul li{
+    
+    margin: 2px;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    text-shadow: 1px 1px 1px rgba(255,255,255,.6);
+    padding: 10px;
+}
+nav#menu ul li:hover{
+   background-color: black;
+   color: white;
+    
+    
+    
+}
+/*cabecalho*/
+header#cabecalho{
+    
+    height:120px;
+    display: block;
+    margin-top: 0px;
+    background: url('../_img/Code-Optimization-2.png') no-repeat left bottom;
+}
+header#cabecalho h1 {
+    display: block;
+    position: static;
+    float: top;
+    margin-top: -5px;
+    color: black;
+    
+    text-shadow: 1px 1px 1px grey;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-size: 25pt
+}
+
+/*footer*/
+
+footer#rodape{
+    height: 10px;
+    background-color: white;
+    padding: 50px;
+    margin-left: 0px;
+    margin-top: -5px;    
+    clear: both;
+}
+footer p{
+    color: black;
+    
+    text-align: center;
+}
+footer a {
+    color: blue;
+}
+
+section#corpo{
+    width: 100%;
+    height: 500px;
+    
+}
+iframe#frame{
+    height: 500px;
+    width: 100%;
+    display: block;
+    border: none;
+    
+}
+footer#rodape{
+    height: 10px;
+    background-color: white;
+    padding: 50px;
+    margin-left: 0px;
+    margin-top: -5px;    
+    clear: both;
+}
